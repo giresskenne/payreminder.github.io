@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - PayReminder</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- En-tête du site -->
+    <header>
+        <div class="container">
+            <h1>PayReminder</h1>
+            <!-- Navigation du site -->
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="#" onclick="logout()">Se déconnecter</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Section principale du tableau de bord -->
+    <section class="container">
+        <h2>Bienvenue, <span id="username"></span></h2>
+        <p>Voici vos paiements mensuels :</p>
+        <div id="payments">
+            <!-- Liste des paiements -->
+        </div>
+    </section>
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 PayReminder. Tous droits réservés.</p>
+    </footer>
+    <!-- Script pour gérer le tableau de bord -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
